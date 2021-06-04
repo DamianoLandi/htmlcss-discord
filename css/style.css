@@ -4,3 +4,55 @@
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+nav{
+    background-color: rgb(49,97,224);
+    height: 60px;
+    line-height: 60px;
+}
+
+.container{
+    width:1000px;
+    margin:auto;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+nav .container ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 130px;
+}
+
+nav .container ul li{
+    display: inline-block;
+}
+
+nav .container > a{
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 14px;
+    height: 20px;
+    margin-left:110px;
+    padding: 6px 8px;
+    font-size: 12px;
+
+}
+
+nav .container ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+nav .container ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
