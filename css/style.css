@@ -109,5 +109,24 @@ nav .container ul li a:hover{
     border-radius: 30px;
 }
 
+main section{
+    height:700px;
+    position: relative;
+}
 
+main section:nth-of-type(even){
+    background-color: rgb(246,246,246);
+}
+
+.wave-gray{
+    position: absolute;
+    bottom:100%;
+    filter: invert(0.965);
+}
+
+.wave-white{
+    position: absolute;
+    bottom:100%;
+    filter: invert(1);
+}
 
