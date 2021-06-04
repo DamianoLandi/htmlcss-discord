@@ -131,7 +131,11 @@ main section:nth-of-type(even){
 }
 
 .box{
-    margin-top:60px;
+    margin-top: 50px;
+}
+
+.box-special{
+    margin-top: 40px;
 }
 
 main section .container div{
