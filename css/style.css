@@ -5,6 +5,12 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.clearfix::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
 nav{
     background-color: rgb(49,97,224);
     height: 60px;
@@ -205,5 +211,49 @@ main section .container div{
     bottom: 60px;
     left:50%;
     transform: translateX(-50%);
+}
 
+footer{
+    color: white;
+    background-color: rgb(35, 39, 42);
+    height: 800px;
+    position: relative;
+}
+
+footer ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 80px;
+    float: left;
+}
+
+footer ul li:first-child{
+    color:rgb(114, 137, 218);
+    margin-right: 100px;
+}
+
+footer ul li{
+    padding: 10px 0;
+}
+
+footer ul:first-child{
+    width: 35%
+}
+
+footer ul:first-child h4{
+    font-size: 30px;
+}
+
+footer ul:first-child li img{
+    height:14px;
+}
+
+footer ul:first-child li i{
+    margin-right: 15px;
+}
+
+footer hr{
+    margin-top: 10px;
+    border-color: rgb(114, 137, 218);
+    border-width: 1px;
 }
