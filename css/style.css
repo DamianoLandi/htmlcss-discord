@@ -216,7 +216,7 @@ main section .container div{
 footer{
     color: white;
     background-color: rgb(35, 39, 42);
-    height: 800px;
+
     position: relative;
 }
 
@@ -256,4 +256,26 @@ footer hr{
     margin-top: 10px;
     border-color: rgb(114, 137, 218);
     border-width: 1px;
+}
+
+.footer-last-section{
+    margin-top: 30px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.footer-last-section img{
+    vertical-align: middle;
+}
+
+.footer-last-section a{
+    color:white;
+    background-color: rgb(114, 137, 218);
+    text-decoration: none;
+    border-radius: 14px;
+    height: 20px;
+    margin-left:110px;
+    padding: 6px 8px;
+    font-size: 12px;
+    margin-left: 804px;
 }
