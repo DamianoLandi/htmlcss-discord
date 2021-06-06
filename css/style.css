@@ -110,12 +110,16 @@ nav .container ul li a:hover{
 }
 
 main section{
-    height:700px;
+    height:500px;
     position: relative;
 }
 
 main section:nth-of-type(even){
     background-color: rgb(246,246,246);
+}
+
+main section:last-child{
+    height: 820px;
 }
 
 .wave-gray{
@@ -167,3 +171,39 @@ main section .container div{
     line-height: 20px;
 }
 
+.last-section{
+    text-align: center;
+}
+
+.last-section h2{
+    font-size: 35px;
+}
+
+.last-section p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 120px;
+}
+
+.last-section h3{
+    display: inline-block;
+    padding: 10px 30px;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.last-section a{
+    color: white;
+    margin-right: 25px;
+    background-color: rgb(142, 161, 225);
+    padding: 15px 25px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 60px;
+    left:50%;
+    transform: translateX(-50%);
+
+}
