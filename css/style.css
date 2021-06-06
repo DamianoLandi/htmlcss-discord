@@ -203,6 +203,7 @@ main section .container div{
 
 .last-section a{
     color: white;
+    text-decoration: none;
     margin-right: 25px;
     background-color: rgb(142, 161, 225);
     padding: 15px 25px;
